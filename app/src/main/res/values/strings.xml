@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">RouteData</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="fTop_tvTop">Route Data</string>
+    <string name="rData_Tab1">Entry</string>
+    <string name="rData_Tab2">Phone</string>
+    <string name="rData_Tab3">Server</string>
+    <string name="rData_tvOutletCategory">Outlet Category</string>
+    <string name="rData_tvOutletType">Outlet Type</string>
+    <string name="rData_tvOutletStatus">Outlet Status</string>
+    <string name="rData_etOutletTag_hint">Outlet tag no</string>
+    <string name="rData_etOutletName_hint">Outlet name</string>
+    <string name="rData_etOutletAddress_hint">Outlet address</string>
+    <string name="rData_etOwnerName_hint">Owner name</string>
+    <string name="rData_etPhone">Contact phone</string>
+    <string name="rData_tvOrderWeekly">Does outlet place order weekly?</string>
+    <string name="rData_tvMultipleChain">Is Outlet a multiple chain?</string>
+    <string name="rData_btnSubmit">Submit data</string>
+
+
+    <string name="outlet_category_promt">Select outlet category</string>
+    <string-array name="outlet_category_array">
+        <item>--select--</item>
+        <item>Grocery</item>
+        <item>Shop</item>
+        <item>Stand</item>
+    </string-array>
+
+    <string name="outlet_type_promt">Select outlet type</string>
+    <string-array name="outlet_type_array">
+        <item>--select--</item>
+        <item>Type 1</item>
+        <item>Type 2</item>
+        <item>Type 3</item>
+    </string-array>
+
+    <string name="outlet_status_promt">Select outlet status</string>
+    <string-array name="outlet_status_array">
+        <item>--select--</item>
+        <item>Status 1</item>
+        <item>Status 2</item>
+        <item>Status 3</item>
+    </string-array>
+
+    <string name="outlet_order_weekly_promt">Does outlet order weekly?</string>
+    <string-array name="outlet_order_weekly_array">
+        <item>--select--</item>
+        <item>Yes</item>
+        <item>No</item>
+    </string-array>
+
+    <string name="outlet_multiple_chain_promt">Is outlet a multiple chain?</string>
+    <string-array name="outlet_multiple_chain_array">
+        <item>--select--</item>
+        <item>Yes</item>
+        <item>No</item>
+    </string-array>
+
+</resources>

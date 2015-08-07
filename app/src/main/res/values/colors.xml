@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="dominant_color" type="color">#80AFB8</item>
+    <item name="dominant_color_pressed" type="color">#4D696E</item>
+
+    <item name="headline_color" type="color">#D99B49</item>
+    <item name="headline_color_pressed" type="color">#825D2C</item>
+
+    <item name="settings_color" type="color">#AFC671</item>
+    <item name="settings_color_pressed" type="color">#697744</item>
+
+    <item name="hint_color" type="color">#E7E7E7</item>
+
+</resources>

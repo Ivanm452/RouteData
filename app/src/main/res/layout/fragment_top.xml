@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageButton
+        android:id="@+id/fTop_btnBack"
+        style="@style/fTop.btnBack"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true" />
+
+    <ImageButton
+        android:id="@+id/fTop_btnHeadline"
+        style="@style/fTop.btnHeadline"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/fTop_btnBack" />
+
+    <ImageButton
+        android:id="@+id/fTop_btnSettings"
+        style="@style/fTop.btnSettings"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/fTop_btnForward" />
+
+    <ImageButton
+        android:id="@+id/fTop_btnForward"
+        style="@style/fTop.btnForward"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true" />
+
+    <TextView
+        android:id="@+id/fTop_tvTop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="@string/fTop_tvTop"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+
+</RelativeLayout>

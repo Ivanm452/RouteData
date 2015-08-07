@@ -1,0 +1,40 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="fTop" parent="@android:style/Widget.Button">
+        <item name="android:layout_width">35dp</item>
+        <item name="android:layout_height">35dp</item>
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+        <item name="android:layout_margin">5dp</item>\
+        <item name="android:clickable">true</item>
+        <item name="android:enabled">true</item>
+    </style>
+
+    <style name="fTop.btnBack">
+        <item name="android:src">@drawable/ftop_btnback</item>
+        <item name="android:background">@drawable/selector_btn_forward_back</item>
+    </style>
+
+    <style name="fTop.btnForward">
+        <item name="android:src">@drawable/ftop_btnforward</item>
+        <item name="android:background">@drawable/selector_btn_forward_back</item>
+    </style>
+
+    <style name="fTop.btnHeadline">
+        <item name="android:src">@drawable/ftop_btnheadline</item>
+        <item name="android:background">@drawable/selector_btn_headline</item>
+    </style>
+
+    <style name="fTop.btnSettings">
+        <item name="android:src">@drawable/ftop_btnsettings</item>
+        <item name="android:background">@drawable/selector_btn_settings</item>
+    </style>
+
+
+
+
+</resources>
